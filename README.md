@@ -17,3 +17,39 @@ R=10 е бројот на региони
 ### Тест случаи според Multiple Condition критериумот
 ![Multiple Condition](https://github.com/tamarapetroska/SI_2024_lab2_226006/assets/166302910/4564a765-e8dc-4c9d-89a5-fad4ad0fbc2c)
 
+### Објаснување на напишаните unit tests
+Every Branch
+
+//null allItems list
+
+Овој тест проверува дали методот правилно фрла исклучок кога allItems е null
+
+//no discount
+
+Овој тест проверува дали има item без попуст. Вкупната исплата (200) е поголема од сумата (100), па методот треба да врати true
+
+//item with null name, discount > 0, special discount condition, and sum greater than payment
+
+//item without barcode
+
+Овој тест проверува дали методот фрла исклучок кога нема баркод
+
+//invalid character in barcode
+
+Овој тест проверува дали методот фрла исклучок кога има невалиден знак во баркодот
+
+Multiple Condition
+
+//T, T, T
+
+//T, T, F
+
+Овој тест проверува дали методот ќе фрли исклучок кога баркодот не почнува со '0'
+
+//T, F, X
+
+Овој тест проверува дали има попуст
+
+//F, X, X
+
+Овој тест проверува дали сумата е поголема од 300
